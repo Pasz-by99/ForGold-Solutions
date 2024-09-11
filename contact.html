@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForGold Solutions - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>            
+        </div>
+        <div class="hero">
+            <h1>Contact Us</h1>
+            <p>We're here to help. Get in touch with us using the icons or form below.</p>
+        </div>
+    </header>
+
+    <section id="contact-info">
+        <h2>Contact Information</h2>
+        <p>Reach out to us through any of the following methods:</p>
+        <div class="contact-icons">
+            <a href="tel:+264816464601" target="_blank"><i class="fas fa-phone"></i> Call Us</a>
+            <a href="https://wa.me/+264816464601" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.facebook.com/Kondjatruly/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://www.instagram.com/mapeni.protocol_" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="mailto:paszbyforgold@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/wilhelm-shikongo-58b003239/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Pasz-by99" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="send_message.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ForGold Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
